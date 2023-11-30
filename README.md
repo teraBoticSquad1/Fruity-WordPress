@@ -1,1 +1,1 @@
-# Fruity-WordPress
+# Fruity The Wordpress Theme
