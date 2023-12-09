@@ -13,3 +13,6 @@ License URI: #
 Text Domain: fruity
 Tags: WordPress, Theme Development, Developer Portfolio, Web Design, Software Development, Coding, Programming, Tech Projects, Front-end Development, Back-end Development, Mobile Apps, UI/UX Design, Graphic Design, Full Stack Development, Open Source, Frameworks, Languages (e.g., JavaScript, Python, PHP), Tools and Technologies, Freelancers, Job Seekers
 */
+body{
+    background-color: aqua !important;
+}
