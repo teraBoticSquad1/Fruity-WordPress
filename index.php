@@ -12,12 +12,9 @@
 
 <body <?php body_class(); ?>>
     <!-- calling wp foot -->
+    <?php get_header();?>
+    <?php get_template_part("Templates/Home/home_top_cetegory_section"); ?>
     <?php wp_footer(); ?>
-    <div class="container">
-        <div class="display-2">
-            Fruity
-        </div>
-    </div>
 </body>
 
 </html>
