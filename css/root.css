@@ -1,6 +1,8 @@
-:root{
-    --main-clr: #80B500;
-    --bg-clr: #FFFFFF;
-    --black-clr: #000000;
-    --shadow-clr: #dddddd;
+:root {
+  --main-clr: #80b500;
+  --bg-clr: #ffffff;
+  --black-clr: #000000;
+  --shadow-clr: #dddddd;
+  --section-bg-clr: #f7f5eb;
+  --white-clr: #ffffff;
 }
