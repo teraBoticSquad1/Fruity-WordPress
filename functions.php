@@ -15,11 +15,13 @@ function fruity_register_important_files()
     wp_enqueue_style('fruity_bootstrap');
     
     // registering custom css
-    wp_register_style('fruity_hero_stylesheet', get_template_directory_uri() . '/css/hero.css', array(), "4.0.0", "all");
+    wp_register_style('fruity_hero_stylesheet', get_template_directory_uri() . '/css/home/hero.css', array(), "4.0.0", "all");
     wp_enqueue_style('fruity_hero_stylesheet');
+    wp_register_style('fruity_home_cetegory_stylesheet', get_template_directory_uri() . '/css/home/category.css', array(), "4.0.0", "all");
+    wp_enqueue_style('fruity_home_cetegory_stylesheet');
 
     //google font
-    wp_enqueue_style('fruity_google_font', 'https://fonts.googleapis.com/css2?family=Belanosima&display=swap', false);
+    wp_enqueue_style('fruity_google_font', 'https://fonts.googleapis.com/css2?family=Ubuntu&display=swap', false);
 
 
     // registering js

@@ -13,7 +13,7 @@
 <body <?php body_class(); ?>>
     <!-- calling wp foot -->
     <?php get_header();?>
-    <?php get_template_part("Templates/Home/home_top_cetegory_section"); ?>
+    <?php get_template_part("Templates/Home/top_cetegory_section"); ?>
     <?php wp_footer(); ?>
 </body>
 
