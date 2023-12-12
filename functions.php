@@ -23,6 +23,8 @@ function fruity_register_important_files()
     wp_enqueue_style('fruity_home_cetegory_stylesheet');
     wp_register_style('fruity_hurry_up_stylesheet', get_template_directory_uri() . '/css/home/hurry_up.css', array(), "4.0.0", "all");
     wp_enqueue_style('fruity_hurry_up_stylesheet');
+    wp_register_style('fruity_why_chose_us', get_template_directory_uri() . '/css/home/why_chose_us.css', array(), "4.0.0", "all");
+    wp_enqueue_style('fruity_why_chose_us');
 
     //google font
     wp_enqueue_style('fruity_google_font', 'https://fonts.googleapis.com/css2?family=Ubuntu&display=swap', false);

@@ -11,10 +11,19 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <!-- calling wp foot -->
+    <!-- wp header -->
     <?php get_header();?>
+
+    <!-- top cetegory -->
     <?php get_template_part("Templates/Home/top_cetegory_section"); ?>
+    
+    <!-- hurry up -->
     <?php get_template_part("Templates/Home/hurry_up_section"); ?>
+    
+    <!-- why chose us -->
+    <?php get_template_part("Templates/Home/why_chose_us"); ?>
+
+    <!-- calling wp foot -->
     <?php wp_footer(); ?>
 </body>
 
