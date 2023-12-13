@@ -22,6 +22,9 @@
     
     <!-- why chose us -->
     <?php get_template_part("Templates/Home/why_chose_us"); ?>
+    
+    <!-- any qs -->
+    <?php get_template_part("Templates/Home/any_qs"); ?>
 
     <!-- calling wp foot -->
     <?php wp_footer(); ?>
