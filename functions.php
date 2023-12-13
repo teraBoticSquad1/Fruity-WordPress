@@ -28,6 +28,8 @@ function fruity_register_important_files()
 
     //google font
     wp_enqueue_style('fruity_google_font', 'https://fonts.googleapis.com/css2?family=Ubuntu&display=swap', false);
+    // font awesome
+    wp_enqueue_style('fruity_font_awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css', false);
 
 
     // registering js
