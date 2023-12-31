@@ -42,6 +42,7 @@ function fruity_register_important_files()
     wp_enqueue_script('fruity_root_js', get_template_directory_uri() . '/js/root.js', array(),  "1.0.0", "true");
     wp_enqueue_script('fruity_menu_js', get_template_directory_uri() . '/js/responsive_menu.js', array(),  "1.0.0", "true");
     wp_enqueue_script('fruity_hurry_up_counter_js', get_template_directory_uri() . '/js/home/hurry_up_countdown.js', array(),  "1.0.0", "true");
+    wp_enqueue_script('fruity_hero_js', get_template_directory_uri() . '/js/home/hero.js', array(),  "1.0.0", "true");
 }
 add_action("wp_enqueue_scripts", "fruity_register_important_files");
 

@@ -44,5 +44,4 @@ if (targetDate.getMonth() == 0) {
 } else {
   month.innerHTML = `Nan`;
 }
-the_time.innerHTML +=
-  " " + `${targetDate.getDate()}` + " " + `${targetDate.getFullYear()}`;
+the_time.innerHTML += " " + `${targetDate.getDate()}` + " " + `${targetDate.getFullYear()}`;

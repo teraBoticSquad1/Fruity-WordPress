@@ -14,6 +14,9 @@
     <!-- wp header -->
     <?php get_header();?>
 
+    <!-- hero slider -->
+    <?php get_template_part("Templates/Home/hero"); ?>
+    
     <!-- top cetegory -->
     <?php get_template_part("Templates/Home/top_cetegory_section"); ?>
     
