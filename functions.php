@@ -29,6 +29,8 @@ function fruity_register_important_files()
     wp_enqueue_style('fruity_any_qs');
     wp_register_style('fruity_our_clints', get_template_directory_uri() . '/css/home/our_clints.css', array(), "4.0.0", "all");
     wp_enqueue_style('fruity_our_clints');
+    wp_register_style('fruity_banner', get_template_directory_uri() . '/css/home/banner.css', array(), "4.0.0", "all");
+    wp_enqueue_style('fruity_banner');
 
     //google font
     wp_enqueue_style('fruity_google_font', 'https://fonts.googleapis.com/css2?family=Ubuntu&display=swap', false);

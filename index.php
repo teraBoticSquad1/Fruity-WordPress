@@ -18,6 +18,9 @@
     <?php get_template_part("Templates/Home/hero"); ?>
     
     <!-- top cetegory -->
+    <?php get_template_part("Templates/Home/banner"); ?>
+    
+    <!-- top cetegory -->
     <?php get_template_part("Templates/Home/top_cetegory_section"); ?>
     
     <!-- hurry up -->
