@@ -31,6 +31,8 @@ function fruity_register_important_files()
     wp_enqueue_style('fruity_our_clints');
     wp_register_style('fruity_banner', get_template_directory_uri() . '/css/home/banner.css', array(), "4.0.0", "all");
     wp_enqueue_style('fruity_banner');
+    wp_register_style('fruity_header', get_template_directory_uri() . '/css/header.css', array(), "4.0.0", "all");
+    wp_enqueue_style('fruity_header');
 
     //google font
     wp_enqueue_style('fruity_google_font', 'https://fonts.googleapis.com/css2?family=Ubuntu&display=swap', false);
@@ -49,4 +51,12 @@ function fruity_register_important_files()
 add_action("wp_enqueue_scripts", "fruity_register_important_files");
 
 // registering menu
-register_nav_menu('fruity_menu', __('Header Menu', 'fruity'));
+function Fruity_Menus() {
+  register_nav_menus(
+    array(
+      'header-menu' => __( 'Header' ),
+      'footer-menu' => __( 'Footer' )
+     )
+   );
+ }
+ add_action( 'init', 'Fruity_Menus' );
