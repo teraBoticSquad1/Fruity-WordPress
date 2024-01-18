@@ -16,11 +16,9 @@
                             );
                     ?>
             </div>
+            <div class="col">
+                <i class="fa fa-bars menu-humberger"></i>
+            </div>
         </div>
     </div>
 </header>
-<!-- <div class="col-md-6">
-    <a class="navbar-brand" href="<?php echo home_url(); ?>">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/logo/logo.png" alt="Your Logo" width="120">
-    </a>
-</div> -->

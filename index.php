@@ -13,7 +13,7 @@
 <body <?php body_class(); ?>>
     <!-- wp header -->
     <?php get_header();?>
-
+    
     <!-- hero slider -->
     <?php get_template_part("Templates/Home/hero"); ?>
     
@@ -31,6 +31,9 @@
     
     <!-- any qs -->
     <?php get_template_part("Templates/Home/any_qs"); ?>
+    
+    <!-- wp footer -->
+    <?php get_footer();?>
 
     <!-- calling wp foot -->
     <?php wp_footer(); ?>
