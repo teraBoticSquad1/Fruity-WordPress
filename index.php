@@ -30,7 +30,7 @@
     <?php get_template_part("Templates/Home/why_chose_us"); ?>
     
     <!-- any qs -->
-    <?php get_template_part("Templates/Home/any_qs"); ?>
+    <?php //get_template_part("Templates/Home/any_qs"); ?>
     
     <!-- wp footer -->
     <?php get_footer();?>

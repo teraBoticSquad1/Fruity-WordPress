@@ -35,7 +35,8 @@ function fruity_register_important_files()
     wp_enqueue_style('fruity_header');
     wp_register_style('fruity_footer', get_template_directory_uri() . '/css/footer.css', array(), "4.0.0", "all");
     wp_enqueue_style('fruity_footer');
-
+    wp_register_style('fruity_login', get_template_directory_uri() . '/css/log-in.css', array(), "4.0.0", "all");
+    wp_enqueue_style('fruity_login');
     //google font
     wp_enqueue_style('fruity_google_font', 'https://fonts.googleapis.com/css2?family=Ubuntu&display=swap', false);
     // font awesome

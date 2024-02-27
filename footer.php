@@ -1,5 +1,5 @@
 <footer class="footer-wrap">
-<div class="container-fluid p-5">
+<div class="container p-5">
         <div class="row">
             <div class="footer-section col-lg-3 col-md-6">
                 <a class="footer-logo" href="<?php echo home_url(); ?>">

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?> class="no-js">
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="<?php bloginfo('charset') ?>">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 - Not Found</title>
-    <style>
-        body {
+<style>
+        .wrap-404 {
             font-family: 'Arial', sans-serif;
-            background-color: #f5f5f5;
             margin: 0;
             padding: 0;
             display: flex;
@@ -42,15 +42,30 @@
             text-decoration: underline;
         }
     </style>
+    <!-- calling wp head -->
+    <?php wp_head(); ?>
 </head>
-<body>
-    <div class="container">
+
+<body <?php body_class(); ?>>
+    <!-- wp header -->
+    <?php get_header();?>
+    <div class="container wrap-404">
+    <div class="">
+
         <h1>404</h1>
         <p>Oops! Page not found.</p>
         <p>Sorry, but the page you are looking for might be in another castle.</p>
-        <p>Go back to <a href="
-            <?php echo home_url(); ?>
-">home</a>.</p>
+        <p>
+            Go back to <a href="<?php echo home_url(); ?>">home</a>
+        </p>
+    </div>    
     </div>
+    
+    <!-- wp footer -->
+    <?php get_footer();?>
+
+    <!-- calling wp foot -->
+    <?php wp_footer(); ?>
 </body>
+
 </html>
